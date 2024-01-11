@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    /* width: 80%; */
+    height: auto;
+    background-color: #ECF5FB;
+    padding: 30px;
+    padding-left: 3%;
+    padding-right: 71.3%;
+    height: 110px;
+    position: relative;
+    /* float: left; */
+}
+
+.twin {
+    height: auto;
+    float: left;
+    background-color: #eef5ff;
+    box-shadow: 1px 2px 1px 2px rgb(186, 186, 228);
+    border: none;
+    margin-left: -17%;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.twin li {
+    list-style-type: none;
+    font-size: 17px;
+    /* width: 200px; */
+    margin-top: 4%;
+    padding: 5px;
+    display: none;
+}
+
+.twin:hover.twin li {
+    display: block;
+
+}
+
+li a {
+
+    list-style-type: none;
+    text-decoration: none;
+    /* margin-left: 55px; */
+
+}
+
+#ring {
+    position: absolute;
+    margin-top: 41px;
+    margin-left: -310px;
+    font-size: 24px;
+    color: rgb(186, 186, 228);
+}
+
+#down {
+    margin-left: 10px;
+}
+
+#user {
+    font-size: 20px;
+}
+
+.header {
+    width: 20%;
+    height: 510px;
+    margin-top: -1%;
+    float: left;
+}
+
+.header li {
+    width: 100%;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 12px;
+    overflow-y: hidden;
+    background-color: #ECF5FB;
+}
+
+.dashboard {
+    width: 55%;
+    height: 506px;
+    background: url(img4.png) no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 13px;
+    float: left;
+}
+
+.dashboard h3 {
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    font-size: 25px;
+    background-color: rgb(255, 175, 2);
+    padding: 10px;
+    color: white;
+}
+
+.dashboard h1 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 40px;
+    width: 25%;
+    color: #525CEB;
+}
+
+.dashboard p {
+    position: absolute;
+    top: 58%;
+    left: 25%;
+    width: 25%;
+    font-size: 22px;
+}
+
+.btn {
+    position: absolute;
+    top: 73%;
+    left: 25%;
+    padding: 5px;
+    color: #525CEB;
+    font-size: 20px;
+}
+
+form {
+    width: 20%;
+    float: left;
+    padding: 35px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: #eef5ff;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    height: 506px;
+    padding-top: 3%;
+}
+
+.reminders li {
+    list-style-type: none;
+    margin-top: 6%;
+}
+
+.reminders span {
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.reminders h5 {
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+.reminders p {
+    margin-left: 50px;
+}
+
+.reminders h6 {
+    width: 100%;
+    margin-top: -28px;
+    margin-left: 22px;
+    font-size: 18px;
+}
+
+#bell {
+    margin-left: -20px;
+    color: #bebe0e;
+}
+
+.reminders h4 {
+    margin-left: 189px;
+    padding: px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: -20px;
+    color: white;
+    background-color: rgb(218, 21, 21);
+    text-align: center;
+    width: 20px;
+}

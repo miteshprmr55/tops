@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ========== login page css Start ==========  */
+
+
+.tops-main {
+    width: 100%;
+    height: 577px;
+    background-image: url(tops-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.tops-nav {
+    width: 100%;
+    height: auto;
+    background-color: #ECF5FB;
+    text-align: center;
+    padding: 16px;
+}
+
+.tops-nav img {
+    width: 300px;
+}
+
+/* ===== tops-login =====  */
+
+.tops-login {
+    width: 100%;
+    height: 577px;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 48px;
+}
+
+.login-form {
+    width: 28%;
+    height: fit-content;
+    background-color: #EDF5FB;
+    border: 2px solid #4c92be;
+    border-radius: 25px;
+    padding: 3%;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.44);
+}
+
+form {
+    margin-top: 20px;
+}
+
+.tops-blue {
+    color: #4c92be;
+    font-weight: 600;
+    text-align: center;
+    font-family: monospace;
+    ;
+}
+
+.Career {
+    color: #3d3d3d;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.f-p {
+    text-decoration: none;
+    color: #4c92be;
+}
+
+#mnmbr {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border: 1px solid #54b669;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding-left: 2%;
+}
+
+#epwd {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border: 1px solid #54b669;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding-left: 2%;
+}
+
+.m-n {
+    color: #3d3d3d;
+    font-family: sans-serif;
+
+}
+
+.p-w {
+    color: #3d3d3d;
+    font-family: sans-serif;
+}
+
+.btn-login {
+    width: 250px;
+    height: 41px;
+    background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+/* ========== login page css end ==========  */
+
+
+/* ------------ loader  start ---------- */
+
+#load {
+    position: relative;
+    display: none;
+}
+
+#loadimg {
+    background: url(ldrgif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 41%;
+    top: 30%;
+}
+
+/* ------------ loader  start ---------- */
+
+
+
+/* ========== responsive ==========  */
+
+/* ========== login responsive ==========  */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .tops-nav img {
+        width: 200px;
+    }
+
+    .login-form {
+        width: 100%;
+        height: fit-content;
+        background-color: #EDF5FB;
+        border: 2px solid #4c92be;
+        border-radius: 25px;
+        padding: 3%;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.44);
+        position: absolute;
+        margin-top: 4%;
+    }
+
+    .tops-login {
+        width: 94%;
+        height: auto;
+        /* background-color: rgb(255, 255, 255); */
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        padding: 12px;
+        position: relative;
+        margin: auto;
+    }
+
+    .btn-login {
+        width: 190px;
+        height: 41px;
+        background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: 600;
+        border-radius: 4px;
+        letter-spacing: 1px;
+        font-family: monospace;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 15%;
+        cursor: pointer;
+        margin-bottom: 4%;
+    }
+
+    .tops-main {
+        width: 100%;
+        height: auto;
+        background-image: url(tops-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #loadimg {
+        background: url(ldrgif.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        z-index: 1;
+        left: 38%;
+        top: 48%;
+    }
+
+}
+
+/* ========== login page end ==========  */
